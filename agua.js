@@ -97,7 +97,7 @@ function createCard(conta) {
           </div>
           <div class="card-body">
             <p>
-              <span class="badge text-bg-danger">$${conta.preco}</span>
+              <span class="badge text-bg-danger">R$${conta.preco}</span>
             </p>
             <p>
               <span class="badge text-bg-primary">${conta.agua} L</span>
