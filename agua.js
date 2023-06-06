@@ -102,10 +102,10 @@ function createCard(conta) {
             <p>
               <span class="badge text-bg-primary">${conta.agua} L</span>
             </p>
-            <a onClick="concluir(${conta.id})" href="#" class="btn btn-success ${disabled}" title="marcar como concluida">
+            <a onClick="concluir(${conta.id})" href="#" class="btn btn-success ${disabled}" title="marcar como paga">
               <i class="bi bi-check-lg"></i>
             </a>
-            <a onClick="apagar(${conta.id})" href="#" class="btn btn-danger" title="apagar tarefa">
+            <a onClick="apagar(${conta.id})" href="#" class="btn btn-danger" title="apagar conta">
               <i class="bi bi-trash"></i>
             </a>
           </div>
